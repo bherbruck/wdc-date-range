@@ -25,8 +25,8 @@ getDateRange = function (start, end) {
         ];
 
         let tableSchema = {
-            id: 'DateConnector',
-            alias: 'DateConnector',
+            id: 'Dates',
+            alias: 'Dates',
             columns: cols,
         };
         schemaCallback([tableSchema]);
